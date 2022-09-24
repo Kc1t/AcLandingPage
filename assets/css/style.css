@@ -1,0 +1,65 @@
+@font-face{
+    font-family: "Luisa";
+    src: url(/assets/font/LuÃ_sa.ttf);
+}
+
+@font-face{
+    font-family: "Viki";
+    src: url(/assets/font/carolingia.ttf);
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+    overflow: hidden;
+    background: black;
+}
+
+video{
+    position: absolute;
+    margin-top: -150px;
+    margin-left: -500px;
+    width: 2000px;
+    opacity: .4;
+}
+
+video:hover{
+    opacity: 10;
+}
+
+.caixa1{
+    position: absolute;   
+    /* width: 480px;
+    margin-left: 920px; */
+}
+
+.fundo1{
+    position: absolute;
+    width: 480px;
+    margin-left: 920px;
+}
+
+.borda1{
+    position: absolute;
+    width: 120px;
+    left: 920px;
+    top: 20px;
+    opacity: .6;
+}
+
+.borda2{
+    position: absolute;
+    width: 120px;
+    left: 1250px;
+    top: 600px;
+    opacity: .6;
+}
+
+.plataformas{
+    position: absolute;
+    display: inline-block;
+    margin-left: 1270px;
+    margin-top: 550px;
+    opacity: .5;
+}
