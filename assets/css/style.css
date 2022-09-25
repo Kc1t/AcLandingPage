@@ -130,7 +130,21 @@ video:hover{
     margin-left: 20px;
 }
 
+
 .losangos{
     position: absolute;
     margin-top: 325px;
+    left: -3px;
+}
+
+.losangos img{
+    display: grid;
+    width: 50px;
+    margin-bottom: 10px;
+}
+
+.creed{
+    position: absolute;
+    margin-top: -100px;
+    margin-left: 440px;
 }
