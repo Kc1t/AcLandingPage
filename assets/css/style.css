@@ -8,6 +8,13 @@
     src: url(/assets/font/carolingia.ttf);
 }
 
+@font-face{
+    font-family: "vikin";
+    src: url(/assets/font/VIKING-N.TTF);
+}
+
+
+
 :root{
     --val: #37aba0;
     --val2: #278178;
@@ -205,7 +212,7 @@ video:hover{
 }
 
 nav{
-    font-family: "luisa";
+    font-family: "vikin";
 }
 
 nav ul{
@@ -241,7 +248,7 @@ nav a:hover{
 }
 
 .text h1{
-    font-family: "viki";
+    font-family: "vikin";
     color: var(--val);
 }
 
