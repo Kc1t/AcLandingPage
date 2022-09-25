@@ -253,3 +253,40 @@ nav a:hover{
     cursor: pointer;
     box-shadow: 0px 0px 10px var(--val2);
 }
+
+.but1 li{
+    font-family: "luisa";
+    font-weight: bold;
+    padding: 20px 5px;
+    margin-left: 57px;
+}
+
+.but2 {
+    background-color: #ffffff;
+    width: 250px;
+    margin-left: 220px;
+    margin-top: -61px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0px 0px 0px 10px #ffffff;
+}
+
+.but2 li{
+    color: var(--val2);
+    font-family: "luisa";
+    font-weight: bold;
+    padding: 20px 5px;
+    margin-left: 57px;
+}
+
+.text2 {
+    position: absolute;
+    color: white;
+    width: 200px;
+    margin-left: 1050px;
+    margin-top: 105px;
+}
+
+.text2 h2{
+    font-family: "viki";
+}
