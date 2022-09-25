@@ -39,13 +39,13 @@ video:hover{
     margin-left: 920px; */
 }
 
-.fundo1{
+/* .fundo1{
     position: absolute;
     width: 480px;
-    margin-left: 920px;
-}
+    margin-left: 920px; 
+} */
 
-.borda1{
+/* .borda1{
     position: absolute;
     width: 120px;
     left: 920px;
@@ -59,15 +59,15 @@ video:hover{
     left: 1250px;
     top: 600px;
     opacity: .6;
-}
+} */
 
-.plataformas{
+/* .plataformas{
     position: absolute;
     display: inline-block;
     margin-left: 1270px;
     margin-top: 550px;
     opacity: .5;
-}
+} */
 
 .plataformas div{
     margin-bottom: 10px;
@@ -85,6 +85,7 @@ video:hover{
     margin-top: 4px;
     margin-left: 5px;
 }
+
 
 .xbox {
     width: 40px;
@@ -113,13 +114,14 @@ video:hover{
     margin-left: 5px;
 }
 
-.l1 {
+/* .l1 {
     position: absolute;
     border: 1px solid #37aba093;
     height: 830px;
     top: -30px;
     margin-left: 918px;
 }
+*/
 .l2 {
     position: absolute;
     border: 1px solid #37aba093;
@@ -133,7 +135,7 @@ video:hover{
     height: 300px;
     top: 510px;
     margin-left: 20px;
-}
+} 
 
 
 .losangos{
@@ -148,12 +150,12 @@ video:hover{
     margin-bottom: 10px;
 }
 
-.creed{
+/* .creed{
     position: absolute;
     margin-top: -100px;
     margin-left: 440px;
     width: 1000px;
-}
+} */
 
 .quadro1 {
     position: absolute;
@@ -189,8 +191,8 @@ video:hover{
 .logo2{
     position: absolute;
     width: 800px;
-    top: 30px;
-    left: 340px;
+    top: 29px;
+    left: 370px;
     opacity: .1;
 }
 
@@ -312,3 +314,55 @@ input{
     -webkit-transition: all .1s ease-in;
     margin-top: 0%;
 }
+
+
+
+/* DIREITA */
+
+.fundo1{
+    position: absolute;
+    width: 480px;
+    margin-left: 64rem; 
+} 
+
+.creed{
+    position: absolute;
+    margin-top: -100px;
+    margin-left: 540px;
+    width: 1000px;
+}
+
+.borda1{
+    position: absolute;
+    width: 120px;
+    left: 1050px;
+    top: 20px;
+    opacity: .6;
+}
+
+.borda2{
+    position: absolute;
+    width: 120px;
+    left: 1364px; 
+    top: 638px;
+    opacity: .6;
+}
+
+
+.plataformas{
+    position: absolute;
+    display: inline-block;
+    margin-left: 1400px;
+    margin-top: 550px;
+    opacity: .5;
+}
+
+.l1 {
+    position: absolute;
+    border: 1px solid #37aba093;
+    height: 830px;
+    top: -30px;
+    margin-left: 1023px;
+}
+
+/* --- */
