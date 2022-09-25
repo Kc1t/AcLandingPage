@@ -147,4 +147,13 @@ video:hover{
     position: absolute;
     margin-top: -100px;
     margin-left: 440px;
+    width: 100px;
+}
+
+.quadro1 {
+    position: absolute;
+    width: 400px;
+    left: -30px;
+    top: 530px;
+    cursor: pointer;
 }
