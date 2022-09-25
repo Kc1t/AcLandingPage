@@ -8,6 +8,11 @@
     src: url(/assets/font/carolingia.ttf);
 }
 
+:root{
+    --val: #37aba0;
+    --val2: #278178;
+}
+
 body{
     margin: 0;
     padding: 0;
@@ -147,7 +152,7 @@ video:hover{
     position: absolute;
     margin-top: -100px;
     margin-left: 440px;
-    width: 100px;
+    width: 1000px;
 }
 
 .quadro1 {
@@ -156,4 +161,95 @@ video:hover{
     left: -30px;
     top: 530px;
     cursor: pointer;
+}
+
+.quadro2 {
+    position: absolute;
+    width: 400px;
+    left: 220px;
+    top: 535px;
+    cursor: pointer;
+}
+
+.quadro3 {
+    position: absolute;
+    width: 230px;
+    left: 550px;
+    top: 535px;
+    cursor: pointer;
+}
+
+.logo1{
+    position: absolute;
+    width: 200px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.logo2{
+    position: absolute;
+    width: 800px;
+    top: 30px;
+    left: 340px;
+    opacity: .1;
+}
+
+.ubisoft{
+    position: absolute;
+    width: 50px;
+    margin-left: 830px;
+    margin-top: 30px;
+    opacity: .3;
+}
+
+nav{
+    font-family: "luisa";
+}
+
+nav ul{
+    list-style: none;
+    margin-left: 270px;
+    margin-top: 50px;
+}
+
+li{
+    display: inline-block;
+    margin-right: 50px;
+}
+
+nav a{
+    color: var(--val);
+}
+
+nav a:hover{
+    color: #278178;
+}
+
+.text{
+    position: absolute;
+    color: #fff;
+    width: 500px;
+    left: 80px;
+    top: 160px;
+}
+
+.text h2{
+    font-family: "luisa";
+}
+
+.text h1{
+    font-family: "viki";
+    color: var(--val);
+}
+
+.text p{
+    font-family: "luisa";
+}
+
+.but1{
+    background-color: var(--val2);
+    width: 200px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px var(--val2);
 }
