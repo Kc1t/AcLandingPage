@@ -72,4 +72,65 @@ video:hover{
     width: 40px;
     height: 40px;
     border: 2px solid rgba(167, 159, 159, 0.726);
+    border-radius: 10px;
+}
+
+.play img{
+    width: 30px;
+    margin-top: 4px;
+    margin-left: 5px;
+}
+
+.xbox {
+    width: 40px;
+    height: 40px;
+    border: 2px solid rgba(167, 159, 159, 0.726);
+    border-radius: 10px;
+}
+
+.xbox img{
+    width: 30px;
+    margin-top: 4px;
+    margin-left: 5px;
+    
+}
+
+.wind{
+    width: 40px;
+    height: 40px;
+    border: 2px solid rgba(167, 159, 159, 0.726);
+    border-radius: 10px;
+}
+
+.wind img{
+    width: 30px;
+    margin-top: 4px;
+    margin-left: 5px;
+}
+
+.l1 {
+    position: absolute;
+    border: 1px solid #37aba093;
+    height: 830px;
+    top: -30px;
+    margin-left: 918px;
+}
+.l2 {
+    position: absolute;
+    border: 1px solid #37aba093;
+    height: 300px;
+    top: -10px;
+    margin-left: 20px;
+}
+.l3 {
+    position: absolute;
+    border: 1px solid #37aba093;
+    height: 300px;
+    top: 510px;
+    margin-left: 20px;
+}
+
+.losangos{
+    position: absolute;
+    margin-top: 325px;
 }
