@@ -63,3 +63,13 @@ video:hover{
     margin-top: 550px;
     opacity: .5;
 }
+
+.plataformas div{
+    margin-bottom: 10px;
+}
+
+.play {
+    width: 40px;
+    height: 40px;
+    border: 2px solid rgba(167, 159, 159, 0.726);
+}
