@@ -12,7 +12,8 @@
 
     <div class="caixa">
         <label for="var2">
-            <video src="/assets/vdimg/usar.mp4" loop muted></video>
+            <video src="/assets/vdimg/valhallaAud.mp4#t=20,180" autoplay loop></video> <!-- #T= (DEFINE O COMEÇO DO VIDEO)-->
+            <!-- <video src="/assets/vdimg/usar.mp4" autoplay loop muted></video> -->
         </label>
 
         <input type="radio" name="var" id="var1">
@@ -58,24 +59,24 @@
 
             <nav>
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Story</a></li>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">História</a></li>
                     <li><a href="#">Wallpaper</a></li>
-                    <li><a href="#">Support</a></li>
-                    <li><a href="#">Forum</a></li> 
+                    <li><a href="#">Suporte</a></li>
+                    <li><a href="#">Fórum</a></li> 
                 </ul>
             </nav>
         
         <div class="text">
-            <h2>Create your own</h2>
-            <h1>VIKING &nbsp; LEGEND</h1>
+            <h2>Crie sua própria</h2>
+            <h1>LENDA &nbsp; VIKING</h1>
             <P>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam similique quibusdam esse dignissimos est velit veniam id asperiores cupiditate vitae dicta quis ex repudiandae excepturi tempore, sunt officiis numquam hic, beatae voluptatem? Inventore rerum qui tenetur dignissimos numquam voluptates obcaecati iure, consectetur iste sit. Fugit labore quia est rem enim vel aspernatur placeat sint autem odio quos, voluptate soluta eaque?</P>
             <div class="but1">
-                <li>BUY NOW</li>
+                <li>COMPRAR</li>
             </div>
             <label for="var1">
                 <div class="but2">
-                    <li>WATCH TRAILER</li>
+                    <li>ASSISTIR TRAILER</li>
                 </div>
             </label>
         </div>
@@ -84,5 +85,27 @@
 
     </div>
     
+
+    <script>
+                var vid = document.getElementById("myVideo"); 
+        var count=0;
+        function control()
+        {
+        count++;
+        if(count%2==1)
+        pauseVid();
+        esle
+        playVid();
+        }
+                function playVid() { 
+                    vid.play(); 
+                } 
+                function pauseVid() { 
+                    vid.pause(); 
+                } 
+        vid.autoplay = true;
+        vid.load();
+    </script>
+
 </body>
 </html>

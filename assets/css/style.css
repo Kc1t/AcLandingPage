@@ -219,6 +219,7 @@ li{
 
 nav a{
     color: var(--val);
+    text-decoration: none;
 }
 
 nav a:hover{
@@ -268,7 +269,7 @@ nav a:hover{
     margin-top: -61px;
     border-radius: 5px;
     cursor: pointer;
-    box-shadow: 0px 0px 0px 10px #ffffff;
+    box-shadow: 0px 0px 10px #ffffff;
 }
 
 .but2 li{
@@ -288,5 +289,26 @@ nav a:hover{
 }
 
 .text2 h2{
+    /* font-family: "viki"; */
+    text-align: center;
+    margin-top: -15px;
+}
+
+.text2  h3{
     font-family: "viki";
+    text-align: center;
+}
+
+input{
+    display: none;
+}
+
+#var1:checked ~ .s1{
+    -webkit-transition: all .1s ease-in;
+    margin-top: -100%;
+}
+
+#var2:checked ~ .s1{
+    -webkit-transition: all .1s ease-in;
+    margin-top: 0%;
 }
