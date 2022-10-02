@@ -13,11 +13,20 @@
     src: url(/assets/font/VIKING-N.TTF);
 }
 
+@font-face{
+    font-family: "subt";
+    src: url(/assets/font/trirong/Trirong-Thin.ttf);
+}
+
+
+
 
 
 :root{
     --val: #37aba0;
     --val2: #278178;
+    --back: #25293D;
+    --btn: #3CBFA9;
 }
 
 body{
@@ -131,14 +140,16 @@ video:hover{
 */
 .l2 {
     position: absolute;
-    border: 1px solid #37aba093;
+    border: 0.5px solid #fff;
+    opacity: 0.1;
     height: 300px;
     top: -10px;
     margin-left: 20px;
 }
 .l3 {
     position: absolute;
-    border: 1px solid #37aba093;
+    border: 0.5px solid #fff;
+    opacity: 0.1;
     height: 300px;
     top: 510px;
     margin-left: 20px;
@@ -227,41 +238,53 @@ li{
 }
 
 nav a{
-    color: var(--val);
+    color: #fff;
+    opacity: 0.7;
     text-decoration: none;
 }
 
 nav a:hover{
-    color: #278178;
+    opacity: 1;
+}
+
+
+
+h1,h2,p{
+    cursor: default;
 }
 
 .text{
     position: absolute;
     color: #fff;
-    width: 500px;
+    /* width: 500px; */
     left: 80px;
     top: 160px;
 }
 
 .text h2{
-    font-family: "luisa";
+    font-family: "subt";
 }
 
 .text h1{
     font-family: "vikin";
-    color: var(--val);
+    /* color: var(--val); */
+    color: #fff;
+    font-size: 3rem;
 }
 
 .text p{
     font-family: "luisa";
+    width: 500px;
+    opacity: 0.6;
 }
 
 .but1{
-    background-color: var(--val2);
+    margin-top: 3rem;
+    background-color: var(--btn);
     width: 200px;
-    border-radius: 5px;
+    /* border-radius: 5px; */
     cursor: pointer;
-    box-shadow: 0px 0px 10px var(--val2);
+    /* box-shadow: 0px 0px 10px var(--val2); */
 }
 
 .but1 li{
@@ -272,17 +295,17 @@ nav a:hover{
 }
 
 .but2 {
-    background-color: #ffffff;
+    background-color: var(--back);
     width: 250px;
-    margin-left: 220px;
+    margin-left: 240px;
     margin-top: -61px;
-    border-radius: 5px;
+    /* border-radius: 5px; */
     cursor: pointer;
-    box-shadow: 0px 0px 10px #ffffff;
+    /* box-shadow: 0px 0px 10px #ffffff; */
 }
 
 .but2 li{
-    color: var(--val2);
+    color: #fff;
     font-family: "luisa";
     font-weight: bold;
     padding: 20px 5px;
@@ -328,7 +351,7 @@ input{
 
 .fundo1{
     position: absolute;
-    width: 480px;
+    width: 1400px;
     margin-left: 64rem; 
 } 
 
