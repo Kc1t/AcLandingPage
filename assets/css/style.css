@@ -18,6 +18,11 @@
     src: url(/assets/font/trirong/Trirong-Thin.ttf);
 }
 
+@font-face{
+    font-family: "long";
+    src: url(/assets/font/LongaIberica-DEMO.ttf);
+}
+
 
 
 
@@ -27,6 +32,7 @@
     --val2: #278178;
     --back: #25293D;
     --btn: #3CBFA9;
+    --clear: #fff;
 }
 
 body{
@@ -35,6 +41,8 @@ body{
     /* box-sizing: border-box; */
     overflow: hidden;
     background: black;
+    list-style: none;
+
 }
 
 video{
@@ -93,7 +101,7 @@ video:hover{
     width: 40px;
     height: 40px;
     border: 2px solid rgba(167, 159, 159, 0.726);
-    border-radius: 10px;
+    /* border-radius: 10px; */
 }
 
 .play img{
@@ -107,7 +115,7 @@ video:hover{
     width: 40px;
     height: 40px;
     border: 2px solid rgba(167, 159, 159, 0.726);
-    border-radius: 10px;
+    /* border-radius: 10px; */
 }
 
 .xbox img{
@@ -121,7 +129,7 @@ video:hover{
     width: 40px;
     height: 40px;
     border: 2px solid rgba(167, 159, 159, 0.726);
-    border-radius: 10px;
+    /* border-radius: 10px; */
 }
 
 .wind img{
@@ -130,21 +138,21 @@ video:hover{
     margin-left: 5px;
 }
 
-/* .l1 {
+.l1 {
     position: absolute;
-    border: 1px solid #37aba093;
+    border: 1px solid var(--btn);
     height: 830px;
     top: -30px;
-    margin-left: 918px;
-}
-*/
+    margin-left: 1022px;
+}       
+
 .l2 {
     position: absolute;
     border: 0.5px solid #fff;
     opacity: 0.1;
     height: 300px;
     top: -10px;
-    margin-left: 20px;
+    margin-left: 40px;
 }
 .l3 {
     position: absolute;
@@ -152,21 +160,100 @@ video:hover{
     opacity: 0.1;
     height: 300px;
     top: 510px;
-    margin-left: 20px;
+    margin-left: 40px;
 } 
 
 
-.losangos{
+
+/* LOSANGOS  */
+
+
+
+.losango1{
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    border: 0.5px solid var(--btn);
+    margin-top: 22rem;
+    margin-left: 2.3rem;
+     /* Rotação */  
+     transform: rotate(-45deg);  
+     cursor: pointer;
+  }
+
+
+
+.losango2{
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    border: 0.5px solid #ccc;
+    margin-top: 24rem;
+    margin-left: 2.3rem;
+     /* Rotação */  
+     transform: rotate(-45deg);  
+     cursor: pointer;
+  }
+
+  .losango2:hover{
+    border: 0.5px solid var(--btn);
+  }
+
+.losango3{
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    border: 0.5px solid #ccc;
+    margin-top: 26rem;
+    margin-left: 2.3rem;
+     /* Rotação */  
+     transform: rotate(-45deg);  
+     cursor: pointer;
+  }
+
+  .losango3:hover{
+    border: 0.5px solid var(--btn);
+  }
+
+
+.losango4{
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    border: 0.5px solid #ccc;
+    margin-top: 28rem;
+    margin-left: 2.3rem;
+     /* Rotação */  
+     transform: rotate(-45deg);  
+     cursor: pointer;
+  }
+
+  .losango4:hover{
+    border: 0.5px solid var(--btn);
+  }
+
+
+
+/* .losangos{
     position: absolute;
     margin-top: 325px;
+    margin-left: 9.3px;
     left: -3px;
 }
 
 .losangos img{
     display: grid;
-    width: 50px;
-    margin-bottom: 10px;
+    width: 34px;
+    margin-bottom: 20px;
 }
+
+.losangos img:nth-child(2)
+{} */
+
+
+/* LOSANGOS  */
+
+
 
 /* .creed{
     position: absolute;
@@ -201,53 +288,64 @@ video:hover{
 
 .logo1{
     position: absolute;
-    width: 200px;
-    margin-left: 50px;
-    margin-top: 20px;
+    width: 150px;
+    margin-left: 6rem;
+    margin-top: 2rem;
 }
 
 .logo2{
+    z-index: 1;
+    position: absolute;
+    width: 500px;
+    top: 10rem;
+    left: 62.4rem;
+    opacity: .40;
+}
+
+/* .logo2{
     position: absolute;
     width: 800px;
     top: 29px;
-    left: 370px;
-    opacity: .1;
-}
+    left: 37rem;
+    opacity: .3;
+} */
 
 .ubisoft{
     position: absolute;
-    width: 50px;
-    margin-left: 830px;
-    margin-top: 30px;
+    width: 45px;
+    margin-left: 55rem;
+    margin-top: 2.2rem;
     opacity: .3;
 }
 
-nav{
+.nav1{
     font-family: "vikin";
 }
 
-nav ul{
+.nav1 ul{
     list-style: none;
     margin-left: 270px;
     margin-top: 50px;
 }
 
-li{
+.nav1 li{
+    font-size: 0.7rem;
     display: inline-block;
     margin-right: 50px;
 }
 
-nav a{
+.nav1 a{
     color: #fff;
     opacity: 0.7;
     text-decoration: none;
 }
 
-nav a:hover{
+.nav a:hover{
     opacity: 1;
 }
 
 
+/* text */
 
 h1,h2,p{
     cursor: default;
@@ -257,7 +355,7 @@ h1,h2,p{
     position: absolute;
     color: #fff;
     /* width: 500px; */
-    left: 80px;
+    left: 100px;
     top: 160px;
 }
 
@@ -267,9 +365,10 @@ h1,h2,p{
 
 .text h1{
     font-family: "vikin";
+    margin-top: 0.5rem;
     /* color: var(--val); */
     color: #fff;
-    font-size: 3rem;
+    font-size: 3.7rem;
 }
 
 .text p{
@@ -278,18 +377,48 @@ h1,h2,p{
     opacity: 0.6;
 }
 
+/* ---------------------- */
+
+.text2 {
+    position: absolute;
+    color: white;
+    width: 200px;
+    margin-left: 73rem;
+    margin-top: 1rem;
+}
+
+.text2 h2{
+    /* font-family: "viki"; */
+    text-align: center;
+    margin-top: -15px;
+}
+
+.text2 h3{
+    opacity: 0.7;
+    font-size: 1rem;
+    font-family: "vikin";
+    font-style: thin;
+    text-align: center;
+}
+
+
+
+/* Botões */
 .but1{
     margin-top: 3rem;
     background-color: var(--btn);
     width: 200px;
-    /* border-radius: 5px; */
     cursor: pointer;
+    /* border-radius: 5px; */
     /* box-shadow: 0px 0px 10px var(--val2); */
 }
 
+
+
 .but1 li{
-    font-family: "luisa";
-    font-weight: bold;
+    font-size: 1rem;
+    font-family: "vikin";
+    font-weight: thin;
     padding: 20px 5px;
     margin-left: 57px;
 }
@@ -299,36 +428,28 @@ h1,h2,p{
     width: 250px;
     margin-left: 240px;
     margin-top: -61px;
-    /* border-radius: 5px; */
     cursor: pointer;
+    /* border-radius: 5px; */
     /* box-shadow: 0px 0px 10px #ffffff; */
 }
 
 .but2 li{
     color: #fff;
-    font-family: "luisa";
-    font-weight: bold;
+    font-family: "vikin";
+    font-weight: thin;
     padding: 20px 5px;
-    margin-left: 57px;
+    margin-left: 53px;
 }
 
-.text2 {
+
+.arred{
+    display: none;
     position: absolute;
-    color: white;
-    width: 200px;
-    margin-left: 1050px;
-    margin-top: 105px;
-}
-
-.text2 h2{
-    /* font-family: "viki"; */
-    text-align: center;
-    margin-top: -15px;
-}
-
-.text2  h3{
-    font-family: "viki";
-    text-align: center;
+    width: 223px;
+    height: 40px;
+    border: 0.1rem solid var(--clear);
+    margin-left: 22rem;
+    margin-top: 23.7rem;
 }
 
 input{
@@ -351,11 +472,13 @@ input{
 
 .fundo1{
     position: absolute;
-    width: 1400px;
+    width: 1100px;
     margin-left: 64rem; 
+    filter: blur(0.5rem);
 } 
 
 .creed{
+    z-index: 1;
     position: absolute;
     margin-top: -100px;
     margin-left: 540px;
@@ -387,12 +510,23 @@ input{
     opacity: .5;
 }
 
-.l1 {
+.col1{
     position: absolute;
-    border: 1px solid #37aba093;
-    height: 830px;
-    top: -30px;
-    margin-left: 1023px;
+    margin-left: 62rem;
+    width: 10rem;
+    opacity: 0.3;
+    transform: rotate(-45deg);  
 }
+
+.col2{
+    position: absolute;
+    margin-left: 85rem;
+    margin-top: -0.8rem;
+    width: 10rem;
+    opacity: 0.3;
+    transform: rotate(+45deg);   
+}
+
+
 
 /* --- */
