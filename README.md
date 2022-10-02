@@ -1,8 +1,10 @@
 # AcValhalla
-Just a Static Page
+Just a Static Page <br>
 🤏 Better dont Ctrl + '-'
 
-There Are Still Some Problems To Fix 💤💤💤 :
--Responsiveness;
--Background Movie Quality;
--Png Size;
+There Are Still Some Problems To Fix 💤💤💤 : <br>
+<ul>
+  <li>Responsiveness;
+<li>Background Movie Quality;
+<li>Png Size;
+</ul>
