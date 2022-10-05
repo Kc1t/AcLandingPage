@@ -53,6 +53,8 @@ video{
     opacity: .4;
 }
 
+
+
 video:hover{
     opacity: 10;
 }
@@ -318,6 +320,11 @@ video:hover{
     opacity: .3;
 }
 
+.ubisoft:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+
 .nav1{
     font-family: "vikin";
 }
@@ -326,6 +333,7 @@ video:hover{
     list-style: none;
     margin-left: 270px;
     margin-top: 50px;
+    cursor: pointer;
 }
 
 .nav1 li{
@@ -338,9 +346,11 @@ video:hover{
     color: #fff;
     opacity: 0.7;
     text-decoration: none;
+    cursor: pointer;
 }
 
-.nav a:hover{
+.nav1 li a:hover{
+    cursor: pointer;
     opacity: 1;
 }
 
@@ -413,6 +423,11 @@ h1,h2,p{
     /* box-shadow: 0px 0px 10px var(--val2); */
 }
 
+.but1:hover{
+    opacity: 0.9;
+    transition:.25s all ease ;
+}
+
 
 
 .but1 li{
@@ -433,6 +448,12 @@ h1,h2,p{
     /* box-shadow: 0px 0px 10px #ffffff; */
 }
 
+.but2:hover{
+    transform: rotate(0deg) scale(1) translateY(3px);
+    transition: .7s all ease;
+}
+
+
 .but2 li{
     color: #fff;
     font-family: "vikin";
@@ -448,6 +469,7 @@ h1,h2,p{
     width: 223px;
     height: 40px;
     border: 0.1rem solid var(--clear);
+    opacity: 0.4;
     margin-left: 22rem;
     margin-top: 23.7rem;
 }
@@ -474,11 +496,11 @@ input{
     position: absolute;
     width: 1100px;
     margin-left: 64rem; 
-    filter: blur(0.5rem);
+    filter: blur(0.3rem);
 } 
 
 .creed{
-    z-index: 1;
+    z-index: 0;
     position: absolute;
     margin-top: -100px;
     margin-left: 540px;

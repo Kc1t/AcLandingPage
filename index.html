@@ -10,15 +10,16 @@
 </head>
 <body>
 
-    <audio autoplay>
+    <!-- <audio autoplay>
         <source src="assets/vdimg/audvalh.mp3" type="audio/mp3">
-    </audio>
+    </audio> -->
 
     <div class="caixa">
         
            <label for="var2">
             <!-- <video src="/assets/vdimg/valhallaAud.mp4" autoplay loop></video> #T="" (DEFINE O COMEÇO DO VIDEO) -->
-                <video src="/assets/vdimg/valhallaAud.mp4" autoplay loop muted></video>
+            <!-- <video id="meuVideo" poster="https://viciados.net/wp-content/uploads/2020/05/assassins-creed-valhalla-1-scaled.jpg" src="/assets/vdimg/valhallaAud.mp4" ></video> -->
+                <video id="meuVideo" poster="" src="/assets/vdimg/valhallaAud.mp4" ></video>
             </label>
 
         <input type="radio" name="var" id="var1">
@@ -27,7 +28,7 @@
 
     <div class="caixa1 s1">
         <img class="logo1" src="/assets/vdimg/logo1.png">
-        <img class="logo2" src="/assets/vdimg/logo2.png">  
+        <!-- <img class="logo2" src="/assets/vdimg/logo2.png">   -->
         <img class="fundo1" src="/assets/vdimg/new/nothern (1)-min.jpg">
         <!-- <img class="borda1" src="/assets/vdimg/borda1.png"> -->
         <!-- <img class="borda2" src="/assets/vdimg/borda3.png"> -->
@@ -87,7 +88,7 @@
             </div>
             <label for="var1">
                 <div class="but2">
-                    <li>ASSISTIR TRAILER</li>
+                    <li type="button" onclick="executar()">ASSISTIR TRAILER</li>
                 </div>
             </label>
         </div>
@@ -104,6 +105,6 @@
     </div>
     
 
-
+<script src="/assets/js/main.js"></script>
 </body>
 </html>
