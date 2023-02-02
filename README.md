@@ -1,10 +1,11 @@
-# AcValhalla
-Just a Static Page <br>
-🤏 Better dont Ctrl + '-'
+<h1> Page Preview </h1>
 
-There Are Still Some Problems To Fix 💤💤💤 : <br>
+<img src="https://github.com/Kc1t/AcValhalla-LandingPage/blob/master/assets/vdimg/Page.gif">
+
+Ainda tem alguns problemas pra resolver, caso eu voltasse pra essa landing page 💤💤💤 : <br>
+
 <ul>
-  <li>Responsiveness;
-<li>Background Movie Quality;
-<li>Png Size;
+<li>Responsividade;
+<li>Qualidade do Vídeo;
+<li>Trocar os png da pag pra deixar ela mais leve;
 </ul>
