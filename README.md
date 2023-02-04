@@ -1,8 +1,8 @@
-<h1> Page Preview </h1>
+## Preview
 
 <img src="https://github.com/Kc1t/AcValhalla-LandingPage/blob/master/assets/vdimg/Page.gif">
 
-Ainda tem alguns problemas pra resolver, caso eu voltasse pra essa landing page 💤💤💤 : <br>
+## Ainda tem alguns problemas pra resolver, caso eu voltasse pra essa landing page 💤💤💤 :
 
 <ul>
 <li>Responsividade;
