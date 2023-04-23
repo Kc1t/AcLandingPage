@@ -2,7 +2,7 @@
 
 <img src="https://github.com/Kc1t/AcValhalla-LandingPage/blob/master/assets/vdimg/Page.gif">
 
-## Ainda tem alguns problemas pra resolver, caso eu voltasse pra essa landing page 💤💤💤 :
+## A resolver
 
 <ul>
 <li>Responsividade;
